@@ -1,0 +1,95 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* This is super cool! What is this? */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 2;
+  color: #3D3230;
+  
+  background-color: slategrey;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+/**********  Button styling  **********/ 
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#gameButtonArea > button {
+  /* padding: 10px 30px; */
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  
+  size: 300*300;
+  text-align: center;
+  
+  margin: 10px; /* it seems like margin controls the space from 4 directions */
+}
+
+#button1 {
+  background: lightgreen; }
+
+#button1:active, #button1.lit {  /* target button1 when it's active or when it has lit in */
+  background: green; }
+
+#button1:hover {
+  background: green;
+}
+
+/*#button:unhover {
+  
+}
+*/
+ 
+/* After I hover, clicking color deosn't change */
+#button2 {
+  background: lightyellow;   }
+
+#button2:active, #button2.lit {
+  background: yellow; }
+
+#button3 {
+  background: lightblue; }
+
+#button3:active, #button3.lit {
+  background: darkblue; }
+
+#button4 {
+  background: lightpink; }
+
+#button4:active, #button4.lit {
+  background: #595ec2; }
+
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Hide the stop button with .hid attribute */
+.hid {
+  display: none;
+}
