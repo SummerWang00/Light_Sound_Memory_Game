@@ -5,7 +5,7 @@
 
 Submitted by: **Xuecen(Summer) Wang**
 
-Time spent: **5** hours spent in total
+Time spent: **6** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/smart-impossible-pentagon)
 
@@ -24,7 +24,7 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [x] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
 * [ ] Computer picks a different pattern each time the game is played
@@ -35,14 +35,14 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [x] I made the 4 additional buttons' sound one octave higher than the existing ones
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![x](gif1-link-here)
-![x](gif2-link-here)
-![x](gif3-link-here)
+[button visuals working](https://drive.google.com/file/d/1Y1nTR5vur5amEqaCYapVVbPAHUFdMABN/view?usp=sharing)
+[lost](https://drive.google.com/file/d/1bj7tNJuUOfe5Y1oekM188QRiMJXhW_VN/view?usp=sharing)
+[win](https://drive.google.com/file/d/1L2XsJ4Qz1caVuy9ynfypXayi_XWXHWcM/view?usp=sharing)
 ![x](gif4-link-here)
 
 ## Reflection Questions
@@ -60,7 +60,8 @@ https://stackoverflow.com/
 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-<br/>I would add some addition visual fixes, such as beautifying the game buttons, start buttons, redesign the background interface, and add some addition features. The additional features would be: 
+<br/>I would add some addition visual fixes, such as beautifying the game buttons, start buttons, redesign the background interface, and add some addition features.
+I would like to make the time interval between the more stable as well through experimenting with interval variables in the JavaScipt file. 
 
 
 ## Interview Recording URL Link
