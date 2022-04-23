@@ -80,7 +80,29 @@ button {
 #button4:active, #button4.lit {
   background: #595ec2; }
 
+#button5 {
+  background: lightgreen; }
 
+#button5:active, #button5.lit {
+  background: #598ec2; }
+
+#button6 {
+  background: lightyellow; }
+
+#button6:active, #button6.lit {
+  background: #59a5c2; }
+
+#button7 {
+  background: lightblue; }
+
+#button7:active, #button7.lit {
+  background: darkblue; }
+
+#button8 {
+  background: lightpink; }
+
+#button8:active, #button8.lit {
+  background: #65aec5; }
 
 /* images and videos max out at full width */
 img,
