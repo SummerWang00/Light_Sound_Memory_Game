@@ -6,7 +6,7 @@ const nextClueWaitTime = 1000;
 
 
 // Global Variables
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];  // track pattern presses
+var pattern = [2, 8, 4, 6, 5, 1, 7, 4];  // track pattern presses
 var progress = 0;  // how far are the play is in guessing the pattern
 
 // becomes true once Start is pressed
@@ -38,10 +38,13 @@ const freqMap = {
   1: 261.6,
   2: 329.6,
   3: 392,
-  4: 520,
-  5: 1000,
-  6: 900
+  4: 523.2,
+  5: 659.26,
+  6: 783.99,
+  7: 1046.5,
+  8: 1318.51
 }
+
 
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
