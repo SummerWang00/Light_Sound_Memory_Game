@@ -38,7 +38,9 @@ const freqMap = {
   1: 261.6,
   2: 329.6,
   3: 392,
-  4: 520
+  4: 520,
+  5: 1000,
+  6: 900
 }
 
 function playTone(btn,len){ 
